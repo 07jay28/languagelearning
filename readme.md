@@ -1,0 +1,1 @@
+This project is largely an attempt for me to practice coding and learn Italian vocabulary. Further implementation can involve different languages, introduction of translations and full sentences, etc. But this is to start off for vocabulary learning. 
