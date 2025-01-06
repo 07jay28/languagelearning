@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+button {
+    display: inline-block;
+}
+
+div.language_buttons {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+}
