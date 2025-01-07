@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Language learning</title>
-        <h1>Language</h1>
+        <h1 id="nome">07jay28</h1>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="style.css" rel="stylesheet">
@@ -21,13 +21,15 @@
         <main id="main">
             <h2 id="Title">Language learning</h2>
             <div class="language_buttons">
-                <select id="Language select">
-                    <option value="">Select Language</option>
-                    <option value="italian">Italian</option>
-                    <option value="dutch">Dutch</option>
+                <select id="language" class="item">
+                    <option value="" disabled selected>Select Language</option>
+                    <option value="Italian">Italian</option>
+                    <option value="Dutch">Dutch</option>
                 </select>
-                <button>Review</button>
-                <button>Quiz</button>
+                <span></span>
+                <button id="review" class="item" onclick="startReview(getLanguage())">Review</button>
+                <span></span>
+                <button id="quiz" class="item" onclick="startQuiz(getLanguage())">Quiz</button>
             </div>
             <!-- <div><button>Review</button></div>
             
